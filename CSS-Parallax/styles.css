@@ -18,8 +18,11 @@ body {
     transform-style: preserve-3d;
     z-index: -1;
   }
+  .background1 {
+    transform: translateZ(-20px) scale(3)
+  }
   
-  .background {
+  .background2 {
     transform: translateZ(-10px) scale(2);
   }
   
@@ -27,7 +30,8 @@ body {
     transform: translateZ(-5px) scale(1.5);
   }
   
-  .background,
+  .background1,
+  .background2,
   .foreground {
     position: absolute;
     height: 100%;
